@@ -1,0 +1,21 @@
+{
+  "name": "@red-cup-engineering/content-tree-reading-service",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Confined filesystem readings for content territory: whole-tree walks, directory listings, and single-resource reads, plus the content/documents/articles path grammar as an overridable default config.",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.mts",
+      "import": "./src/content-tree.mjs"
+    }
+  },
+  "scripts": {
+    "check": "node --check src/content-tree.mjs",
+    "test": "node --test test/*.test.mjs",
+    "verify": "npm run check && npm test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
