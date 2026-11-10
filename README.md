@@ -8,3 +8,7 @@
 <!-- 561-group-standards:badges:end -->
 
 Confined filesystem readings for content territory: whole-tree walks, directory listings, and single-resource reads, plus the content/documents/articles path grammar as an overridable default config.
+
+## Acceptance
+
+Run `npm test` for the source suite. See the [API reference](docs/API.md) and [runnable consumer example](examples/quickstart.test.mjs).
