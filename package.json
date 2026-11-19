@@ -1,0 +1,29 @@
+{
+  "name": "@red-cup-engineering/content-tree-reading-service",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Confined filesystem readings for content territory: whole-tree walks, directory listings, and single-resource reads, plus the content/documents/articles path grammar as an overridable default config.",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.mts",
+      "import": "./src/content-tree.mjs"
+    }
+  },
+  "scripts": {
+    "check": "node --check src/content-tree.mjs",
+    "verify": "npm run check"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/content-tree-reading-service.git"
+  },
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
+}
